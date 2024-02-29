@@ -1,0 +1,25 @@
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Ajustes gerais */
+    body {
+        font-size: 16px; /* Ajuste o tamanho da fonte para dispositivos móveis */
+    }
+
+    /* Ajustes específicos para o conteúdo */
+    .container {
+        padding: 20px; /* Adiciona espaço interno ao redor do conteúdo */
+    }
+    h3 {
+        font-size: 32px; /* Reduz o tamanho do cabeçalho */
+    }
+    img {
+        width: 100%; /* Garante que a imagem se ajuste ao tamanho da tela */
+        max-width: 300px; /* Define a largura máxima da imagem */
+        height: auto; /* Mantém a proporção da imagem */
+        position: static; /* Remove a posição absoluta para permitir o fluxo normal */
+        margin-top: 20px; /* Adiciona um espaço entre o cabeçalho e a imagem */
+    }
+    button {
+        font-size: 18px; /* Reduz o tamanho do texto do botão */
+    }
+}
